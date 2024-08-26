@@ -1,0 +1,21 @@
+{
+  "name": "alpha",
+  "version": "1.0.0",
+  "description": "API Sandbox",
+  "main": "index.ts",
+  "author": "Matthew Herron",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "@types/node-fetch": "^2.6.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "2.6.1"
+  },
+  "scripts": {
+    "start": "ts-node --files -P tsconfig.json index.ts"
+  }
+}
